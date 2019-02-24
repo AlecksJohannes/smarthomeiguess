@@ -25,6 +25,7 @@ var config = {
 }
 EasyBluetooth.init(config)
 .then(function (config) {
+ console.log('config initialized')
 })
 .catch(function (ex) {
   console.warn(ex);

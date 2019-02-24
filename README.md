@@ -106,7 +106,7 @@ componentWillUnmount() {
 ```
 
 - Now lets display our data
-```
+```jsx
 <Text> Current Temperature </Text>
   <Text>temp: { this.state.data['temp']} in Degree Celcius</Text>
   <Text>humid: { this.state.data['hum']} in percentage</Text>
